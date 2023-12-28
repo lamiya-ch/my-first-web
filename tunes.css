@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main1{
+    background-color:#270082;
+    width: 100%;
+    height: 80px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2) !important;
+    position: fixed;
+   
+   display: flex;
+   justify-content: space-between;
+
+    
+    
+    
+  
+
+}
+.links{
+  padding: 30px;
+
+  
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.main1 h1{
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+
+.main2{
+    background-image: url(hero_image.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+    
+    
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.page1{
+    width: 100%;
+    height: 98vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page1 h1{
+    color: white;
+    text-align: center;
+    font-size: 112px;
+    
+  
+}
+.page1 h3{
+    color: white;
+    text-align: center;
+  
+    font-size: 40px;
+}
+.page1 p{
+    color: white;
+    text-align: center;
+    
+    font-size: 20px;
+}
+.page2{
+    background-color: #281154;
+    width: 100%;
+    height: 83vh;
+
+}
+.page2 h3{
+    
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    
+    padding: 50px;
+
+   
+}
+.page2 h4{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    
+    padding: 0px;
+
+}
+.btn{
+    text-align: center;
+    padding: 30px;
+   
+}
+.page2 button{
+    background-color: red;
+    color: white;
+   
+    padding-right: 4px;    
+    height: 28px;
+ 
+}
+.page2 h5{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+.main3 img{
+    background-image: url(ipad-iphone.png);
+    
+    background-position: center;
+    margin-left: 348px;
+    margin-top: 41px;
+    
+}
+.main4{
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+}
+.main4 h3{
+    text-align: center;
+    padding-top: 480px;
+    font-size: 20px;
+}
+.main4 p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 17px;
+}
+.btn2{
+    text-align: center;
+    padding: 30px;
+   
+
+}
+.main4 button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    padding-right: 20px;
+    
+  
+    
+}
+.main4 img{
+    background-image: url(mac.png);
+    background-position: center;
+    margin-left: 240px;
+    margin-top: 30px;
+
+    
+}
+.main5{
+    background-image: url(video.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -80px;
+
+}
+.page4 h4{
+    color: white;
+    text-align: center;
+    padding: 218px;
+    font-size: 24px;
+
+
+}
+.page4 p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: -157px;
+}
+.main6{
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+
+}
+.main6 img{
+    background-image: url(gift_card.png);
+    margin-left: 170px;
+    margin-top: 129px;
+}
+.main6 h2{
+    text-align: center;
+    margin-left:-138px ;
+    margin-top: -317px;
+}
+.main6 p{
+    text-align: center;
+    margin-left: 389px;
+    
+    
+    
+
+}
+.main6 hr{
+    width: 40%;
+    margin-left: 650px;
+    margin-top: 15px;
+}
+   
+
+.btn3{
+    text-align: center;
+    padding: 30px;
+    margin-left: -140px;
+
+}
+.btn3 button{
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 27px;
+}
+.main7{
+    display: flex;
+    background-color: #1B0058;
+    color: white;
+    width: 100%;
+    height: 34vh;
+    justify-content: space-around;
+    padding: 13px;
+    
+    
+}
+.section1 ul{
+    list-style: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+    
+}
+.section1 hr{
+    width: 105%;
+    margin-left: -2px;
+    margin-top: -7px;
+}
+footer{
+    background-color: #270082;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding: 23px;
+   
+    font-size: 20px;
+    
+}
+@media screen and (max-width:450px){
+    .main1{
+        position: relative;
+        right: 0px;
+        width: 375px;
+
+    }
+    .logo h1{
+        position: relative;
+        right: 139px;
+        font-size: 21px;
+    }
+    .links a{
+        position: relative;
+        right: 104px;
+        font-size: 13px;
+       
+    }
+    .links{
+        display: flex;
+        width: 139px;
+    }
+    .main2{
+        position: relative;
+        width: 100%;
+    }
+    .page1 h1{
+        font-size: 45px;
+
+    }
+    .page1 h3{
+        position: relative;
+        font-size: 20px;
+        right: 13px;
+    }
+    .page1 p{
+        position: relative;
+        font-size: 15px;
+        right: 6px;
+        width: 330px;
+    }
+    .page2 i{
+        font-size: 13px;
+    }
+    .page2 h3{
+        font-size: 20px;
+    }
+    .page2 h4{
+        font-size: 14px;
+    }
+   .main3{
+    width: 100%;
+    height: 65vh;
+   }
+    .main3 .img img{
+        width: 59%;
+        position: relative;
+        right: 257px;
+
+    }
+    .main4{
+        height: 134vh;
+    }
+    .page3 h3{
+        position: relative;
+        height: 247px;
+        width: 383px;
+        top: -307px;
+        right: 2px;
+    }
+    .page3 p{
+        position: relative;
+        top: -261px;
+        font-size: 16px;
+    }
+    .btn2{
+        position: relative;
+        top: -255px;
+    }
+    .main4 img{
+        position: relative;
+        width: 275px;
+        height: 41vh;
+        top: -299px;
+        right: 197px;
+    }
+    .main5{
+        position: relative;
+        width: 100%;
+        display: flex;
+    }
+    .page4 h4{
+        font-size: 15px;
+        width: 794px;
+        position: relative;
+        right: 205px;
+    }
+    .page4 p{
+        font-size: 14px;
+        position: relative;
+        width: 374px;
+        right: -1px;
+    }
+    .main6{
+        width: 100%;
+        height: 252px;
+    }
+  
+
+    
+    .main6 img{
+        position: relative;
+        width: 108px;
+        height: 145px;
+        top: -108px;
+        right: 155px;
+
+    }
+    .main6 h2{
+        position: relative;
+        right: -55px;
+        font-size: 17px;
+        top: 80px;
+    }
+    .main6 p{
+        position: relative;
+        width: 256px;
+        right: 266px;
+        font-size: 10px;
+        top: 64px;
+        height: 166px;
+
+
+    }
+    .btn3{
+        right: -55px;
+        position: relative;
+    }
+    .main6 hr{
+        right: 520px;
+        position: relative;
+        top: 19px;
+        width: 231px;
+    }
+    .main7{
+        display: flex;
+        width: 100%;
+        height: 203px;
+    }
+    .section1{
+        font-size: 11px;
+
+    
+    }
+    .section1 ul{
+        font-size: 11px;
+    }
+    
+}
